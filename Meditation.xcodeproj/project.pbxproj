@@ -7,12 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9E0962C121C473AA009F2AC0 /* ResetButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E0962C021C473AA009F2AC0 /* ResetButton.swift */; };
+		9E396181219B7A11009A3400 /* SettingsButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E396180219B7A11009A3400 /* SettingsButton.swift */; };
+		9EA4A2E221F1415E007C44F7 /* WeekStreakTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA4A2E121F1415E007C44F7 /* WeekStreakTracker.swift */; };
 		9EF27452214DE1E70028C5F0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EF27451214DE1E70028C5F0 /* AppDelegate.swift */; };
-		9EF27454214DE1E70028C5F0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EF27453214DE1E70028C5F0 /* ViewController.swift */; };
+		9EF27454214DE1E70028C5F0 /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EF27453214DE1E70028C5F0 /* TimerViewController.swift */; };
 		9EF27457214DE1E70028C5F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EF27455214DE1E70028C5F0 /* Main.storyboard */; };
 		9EF27459214DE1E70028C5F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9EF27458214DE1E70028C5F0 /* Assets.xcassets */; };
 		9EF2745C214DE1E70028C5F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EF2745A214DE1E70028C5F0 /* LaunchScreen.storyboard */; };
 		9EF27467214DE1E80028C5F0 /* MeditationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EF27466214DE1E80028C5F0 /* MeditationTests.swift */; };
+		9EF27472214DE46D0028C5F0 /* TimerButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EF27471214DE46D0028C5F0 /* TimerButton.swift */; };
+		9EF2747A2151D5770028C5F0 /* bell.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9EF274792151D5770028C5F0 /* bell.wav */; };
+		9EF2747E2151D7C30028C5F0 /* bell_short.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9EF2747D2151D7C30028C5F0 /* bell_short.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,9 +32,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9E0962C021C473AA009F2AC0 /* ResetButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetButton.swift; sourceTree = "<group>"; };
+		9E396180219B7A11009A3400 /* SettingsButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsButton.swift; sourceTree = "<group>"; };
+		9EA4A2E121F1415E007C44F7 /* WeekStreakTracker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekStreakTracker.swift; sourceTree = "<group>"; };
 		9EF2744E214DE1E70028C5F0 /* Meditation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Meditation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9EF27451214DE1E70028C5F0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9EF27453214DE1E70028C5F0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9EF27453214DE1E70028C5F0 /* TimerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerViewController.swift; sourceTree = "<group>"; };
 		9EF27456214DE1E70028C5F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9EF27458214DE1E70028C5F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9EF2745B214DE1E70028C5F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -36,6 +45,9 @@
 		9EF27462214DE1E80028C5F0 /* MeditationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MeditationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9EF27466214DE1E80028C5F0 /* MeditationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeditationTests.swift; sourceTree = "<group>"; };
 		9EF27468214DE1E80028C5F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9EF27471214DE46D0028C5F0 /* TimerButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerButton.swift; sourceTree = "<group>"; };
+		9EF274792151D5770028C5F0 /* bell.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = bell.wav; sourceTree = "<group>"; };
+		9EF2747D2151D7C30028C5F0 /* bell_short.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = bell_short.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,9 +90,14 @@
 			isa = PBXGroup;
 			children = (
 				9EF27451214DE1E70028C5F0 /* AppDelegate.swift */,
-				9EF27453214DE1E70028C5F0 /* ViewController.swift */,
+				9EF27453214DE1E70028C5F0 /* TimerViewController.swift */,
+				9EA4A2E121F1415E007C44F7 /* WeekStreakTracker.swift */,
+				9EF27471214DE46D0028C5F0 /* TimerButton.swift */,
+				9E0962C021C473AA009F2AC0 /* ResetButton.swift */,
+				9E396180219B7A11009A3400 /* SettingsButton.swift */,
 				9EF27455214DE1E70028C5F0 /* Main.storyboard */,
 				9EF27458214DE1E70028C5F0 /* Assets.xcassets */,
+				9EF27478214E46270028C5F0 /* Sounds */,
 				9EF2745A214DE1E70028C5F0 /* LaunchScreen.storyboard */,
 				9EF2745D214DE1E70028C5F0 /* Info.plist */,
 			);
@@ -94,6 +111,15 @@
 				9EF27468214DE1E80028C5F0 /* Info.plist */,
 			);
 			path = MeditationTests;
+			sourceTree = "<group>";
+		};
+		9EF27478214E46270028C5F0 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				9EF2747D2151D7C30028C5F0 /* bell_short.wav */,
+				9EF274792151D5770028C5F0 /* bell.wav */,
+			);
+			path = Sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,9 +172,16 @@
 				TargetAttributes = {
 					9EF2744D214DE1E70028C5F0 = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1000;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 0;
+							};
+						};
 					};
 					9EF27461214DE1E80028C5F0 = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1000;
 						TestTargetID = 9EF2744D214DE1E70028C5F0;
 					};
 				};
@@ -180,6 +213,8 @@
 				9EF2745C214DE1E70028C5F0 /* LaunchScreen.storyboard in Resources */,
 				9EF27459214DE1E70028C5F0 /* Assets.xcassets in Resources */,
 				9EF27457214DE1E70028C5F0 /* Main.storyboard in Resources */,
+				9EF2747E2151D7C30028C5F0 /* bell_short.wav in Resources */,
+				9EF2747A2151D5770028C5F0 /* bell.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,7 +232,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9EF27454214DE1E70028C5F0 /* ViewController.swift in Sources */,
+				9E396181219B7A11009A3400 /* SettingsButton.swift in Sources */,
+				9E0962C121C473AA009F2AC0 /* ResetButton.swift in Sources */,
+				9EF27472214DE46D0028C5F0 /* TimerButton.swift in Sources */,
+				9EF27454214DE1E70028C5F0 /* TimerViewController.swift in Sources */,
+				9EA4A2E221F1415E007C44F7 /* WeekStreakTracker.swift in Sources */,
 				9EF27452214DE1E70028C5F0 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -359,14 +398,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9YJ8GCM3RD;
 				INFOPLIST_FILE = Meditation/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.Meditation;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vintangible.Meditation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -376,14 +416,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9YJ8GCM3RD;
 				INFOPLIST_FILE = Meditation/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.Meditation;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vintangible.Meditation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -402,7 +443,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.MeditationTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Meditation.app/Meditation";
 			};
@@ -422,7 +463,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.MeditationTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Meditation.app/Meditation";
 			};
